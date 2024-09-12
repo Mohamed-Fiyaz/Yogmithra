@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Yogmithra' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Yogmithra
+
+  target 'YogmithraTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'YogmithraUITests' do
+    # Pods for testing
+  end
+
+end

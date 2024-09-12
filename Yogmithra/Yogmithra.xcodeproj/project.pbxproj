@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769D9CF32C92B20000B3E7B6 /* YogmithraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D9CF22C92B20000B3E7B6 /* YogmithraApp.swift */; };
+		769D9CF52C92B20000B3E7B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D9CF42C92B20000B3E7B6 /* ContentView.swift */; };
+		769D9CF72C92B20200B3E7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769D9CF62C92B20200B3E7B6 /* Assets.xcassets */; };
+		769D9CFA2C92B20200B3E7B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 769D9CF92C92B20200B3E7B6 /* Preview Assets.xcassets */; };
+		769D9D042C92B20200B3E7B6 /* YogmithraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D9D032C92B20200B3E7B6 /* YogmithraTests.swift */; };
+		769D9D0E2C92B20200B3E7B6 /* YogmithraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D9D0D2C92B20200B3E7B6 /* YogmithraUITests.swift */; };
+		769D9D102C92B20200B3E7B6 /* YogmithraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769D9D0F2C92B20200B3E7B6 /* YogmithraUITestsLaunchTests.swift */; };
+		769D9D1D2C92B33300B3E7B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 769D9D1C2C92B33300B3E7B6 /* GoogleService-Info.plist */; };
+		769D9D202C92BC9300B3E7B6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D1F2C92BC9300B3E7B6 /* FirebaseAnalytics */; };
+		769D9D222C92BC9300B3E7B6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D212C92BC9300B3E7B6 /* FirebaseAnalyticsOnDeviceConversion */; };
+		769D9D242C92BC9300B3E7B6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D232C92BC9300B3E7B6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		769D9D262C92BC9300B3E7B6 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D252C92BC9300B3E7B6 /* FirebaseAppCheck */; };
+		769D9D282C92BC9300B3E7B6 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D272C92BC9300B3E7B6 /* FirebaseAppDistribution-Beta */; };
+		769D9D2A2C92BF3600B3E7B6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D292C92BF3600B3E7B6 /* FirebaseAuth */; };
+		769D9D2C2C92BF3600B3E7B6 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D2B2C92BF3600B3E7B6 /* FirebaseAuthCombine-Community */; };
+		769D9D2E2C92BF3600B3E7B6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D2D2C92BF3600B3E7B6 /* FirebaseCrashlytics */; };
+		769D9D302C92BF3600B3E7B6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D2F2C92BF3600B3E7B6 /* FirebaseDatabase */; };
+		769D9D322C92BF3600B3E7B6 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D312C92BF3600B3E7B6 /* FirebaseDynamicLinks */; };
+		769D9D342C92BF3600B3E7B6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D332C92BF3600B3E7B6 /* FirebaseFirestore */; };
+		769D9D362C92BF3600B3E7B6 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D352C92BF3600B3E7B6 /* FirebaseFirestoreCombine-Community */; };
+		769D9D382C92BF3600B3E7B6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D372C92BF3600B3E7B6 /* FirebaseFunctions */; };
+		769D9D3A2C92BF3600B3E7B6 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D392C92BF3600B3E7B6 /* FirebaseFunctionsCombine-Community */; };
+		769D9D3C2C92BF3600B3E7B6 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D3B2C92BF3600B3E7B6 /* FirebaseInAppMessaging-Beta */; };
+		769D9D3E2C92BF3600B3E7B6 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D3D2C92BF3600B3E7B6 /* FirebaseInstallations */; };
+		769D9D402C92BF3600B3E7B6 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D3F2C92BF3600B3E7B6 /* FirebaseMLModelDownloader */; };
+		769D9D422C92BF3600B3E7B6 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D412C92BF3600B3E7B6 /* FirebaseMessaging */; };
+		769D9D442C92BF3600B3E7B6 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D432C92BF3600B3E7B6 /* FirebasePerformance */; };
+		769D9D462C92BF3600B3E7B6 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D452C92BF3600B3E7B6 /* FirebaseRemoteConfig */; };
+		769D9D482C92BF3600B3E7B6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D472C92BF3600B3E7B6 /* FirebaseStorage */; };
+		769D9D4A2C92BF3600B3E7B6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D492C92BF3600B3E7B6 /* FirebaseStorageCombine-Community */; };
+		769D9D4C2C92BF3600B3E7B6 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 769D9D4B2C92BF3600B3E7B6 /* FirebaseVertexAI-Preview */; };
+		8FA26D9E96C21B2BCC7FD30D /* Pods_Yogmithra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0867112A9BEC47D7AEA859 /* Pods_Yogmithra.framework */; };
+		B0F7D9A8B97ABD1DDF5B1709 /* Pods_Yogmithra_YogmithraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418F73876B17487262F1A6A4 /* Pods_Yogmithra_YogmithraUITests.framework */; };
+		F381B042A48BB8C10CC67DA4 /* Pods_YogmithraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD9BB2C5688D8102F605935A /* Pods_YogmithraTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		769D9D002C92B20200B3E7B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769D9CE72C92B20000B3E7B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769D9CEE2C92B20000B3E7B6;
+			remoteInfo = Yogmithra;
+		};
+		769D9D0A2C92B20200B3E7B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 769D9CE72C92B20000B3E7B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 769D9CEE2C92B20000B3E7B6;
+			remoteInfo = Yogmithra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E16F49515EE98FC5A365B1F /* Pods-Yogmithra-YogmithraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogmithra-YogmithraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Yogmithra-YogmithraUITests/Pods-Yogmithra-YogmithraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26AE0A9F46A4D979BE3D4761 /* Pods-Yogmithra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogmithra.debug.xcconfig"; path = "Target Support Files/Pods-Yogmithra/Pods-Yogmithra.debug.xcconfig"; sourceTree = "<group>"; };
+		34891D1C0B33EDD3470A8850 /* Pods-Yogmithra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogmithra.release.xcconfig"; path = "Target Support Files/Pods-Yogmithra/Pods-Yogmithra.release.xcconfig"; sourceTree = "<group>"; };
+		418F73876B17487262F1A6A4 /* Pods_Yogmithra_YogmithraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yogmithra_YogmithraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE20E960BBEF8DFB2D8EF99 /* Pods-Yogmithra-YogmithraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yogmithra-YogmithraUITests.release.xcconfig"; path = "Target Support Files/Pods-Yogmithra-YogmithraUITests/Pods-Yogmithra-YogmithraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		769D9CEF2C92B20000B3E7B6 /* Yogmithra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yogmithra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		769D9CF22C92B20000B3E7B6 /* YogmithraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogmithraApp.swift; sourceTree = "<group>"; };
+		769D9CF42C92B20000B3E7B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		769D9CF62C92B20200B3E7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		769D9CF92C92B20200B3E7B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		769D9CFF2C92B20200B3E7B6 /* YogmithraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogmithraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769D9D032C92B20200B3E7B6 /* YogmithraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogmithraTests.swift; sourceTree = "<group>"; };
+		769D9D092C92B20200B3E7B6 /* YogmithraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogmithraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		769D9D0D2C92B20200B3E7B6 /* YogmithraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogmithraUITests.swift; sourceTree = "<group>"; };
+		769D9D0F2C92B20200B3E7B6 /* YogmithraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogmithraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		769D9D1C2C92B33300B3E7B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		769D9D4D2C92F45400B3E7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		888BB52DE5DD94C6BBB5DE5F /* Pods-YogmithraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogmithraTests.release.xcconfig"; path = "Target Support Files/Pods-YogmithraTests/Pods-YogmithraTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E0867112A9BEC47D7AEA859 /* Pods_Yogmithra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yogmithra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9BB2C5688D8102F605935A /* Pods_YogmithraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogmithraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3F9F6949AB21F26FA4505F /* Pods-YogmithraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogmithraTests.debug.xcconfig"; path = "Target Support Files/Pods-YogmithraTests/Pods-YogmithraTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		769D9CEC2C92B20000B3E7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D9D4C2C92BF3600B3E7B6 /* FirebaseVertexAI-Preview in Frameworks */,
+				769D9D362C92BF3600B3E7B6 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				769D9D382C92BF3600B3E7B6 /* FirebaseFunctions in Frameworks */,
+				769D9D442C92BF3600B3E7B6 /* FirebasePerformance in Frameworks */,
+				769D9D4A2C92BF3600B3E7B6 /* FirebaseStorageCombine-Community in Frameworks */,
+				769D9D462C92BF3600B3E7B6 /* FirebaseRemoteConfig in Frameworks */,
+				769D9D302C92BF3600B3E7B6 /* FirebaseDatabase in Frameworks */,
+				769D9D322C92BF3600B3E7B6 /* FirebaseDynamicLinks in Frameworks */,
+				769D9D202C92BC9300B3E7B6 /* FirebaseAnalytics in Frameworks */,
+				769D9D222C92BC9300B3E7B6 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				8FA26D9E96C21B2BCC7FD30D /* Pods_Yogmithra.framework in Frameworks */,
+				769D9D342C92BF3600B3E7B6 /* FirebaseFirestore in Frameworks */,
+				769D9D422C92BF3600B3E7B6 /* FirebaseMessaging in Frameworks */,
+				769D9D3E2C92BF3600B3E7B6 /* FirebaseInstallations in Frameworks */,
+				769D9D3A2C92BF3600B3E7B6 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				769D9D262C92BC9300B3E7B6 /* FirebaseAppCheck in Frameworks */,
+				769D9D242C92BC9300B3E7B6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				769D9D3C2C92BF3600B3E7B6 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				769D9D2A2C92BF3600B3E7B6 /* FirebaseAuth in Frameworks */,
+				769D9D2E2C92BF3600B3E7B6 /* FirebaseCrashlytics in Frameworks */,
+				769D9D402C92BF3600B3E7B6 /* FirebaseMLModelDownloader in Frameworks */,
+				769D9D482C92BF3600B3E7B6 /* FirebaseStorage in Frameworks */,
+				769D9D282C92BC9300B3E7B6 /* FirebaseAppDistribution-Beta in Frameworks */,
+				769D9D2C2C92BF3600B3E7B6 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D9CFC2C92B20200B3E7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F381B042A48BB8C10CC67DA4 /* Pods_YogmithraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D9D062C92B20200B3E7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F7D9A8B97ABD1DDF5B1709 /* Pods_Yogmithra_YogmithraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F23EE205D75C1F378D7C8C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26AE0A9F46A4D979BE3D4761 /* Pods-Yogmithra.debug.xcconfig */,
+				34891D1C0B33EDD3470A8850 /* Pods-Yogmithra.release.xcconfig */,
+				0E16F49515EE98FC5A365B1F /* Pods-Yogmithra-YogmithraUITests.debug.xcconfig */,
+				6EE20E960BBEF8DFB2D8EF99 /* Pods-Yogmithra-YogmithraUITests.release.xcconfig */,
+				FA3F9F6949AB21F26FA4505F /* Pods-YogmithraTests.debug.xcconfig */,
+				888BB52DE5DD94C6BBB5DE5F /* Pods-YogmithraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		34CA4A928F41E6D8559E1ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0867112A9BEC47D7AEA859 /* Pods_Yogmithra.framework */,
+				418F73876B17487262F1A6A4 /* Pods_Yogmithra_YogmithraUITests.framework */,
+				AD9BB2C5688D8102F605935A /* Pods_YogmithraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		769D9CE62C92B20000B3E7B6 = {
+			isa = PBXGroup;
+			children = (
+				769D9CF12C92B20000B3E7B6 /* Yogmithra */,
+				769D9D022C92B20200B3E7B6 /* YogmithraTests */,
+				769D9D0C2C92B20200B3E7B6 /* YogmithraUITests */,
+				769D9CF02C92B20000B3E7B6 /* Products */,
+				1F23EE205D75C1F378D7C8C6 /* Pods */,
+				34CA4A928F41E6D8559E1ED3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		769D9CF02C92B20000B3E7B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769D9CEF2C92B20000B3E7B6 /* Yogmithra.app */,
+				769D9CFF2C92B20200B3E7B6 /* YogmithraTests.xctest */,
+				769D9D092C92B20200B3E7B6 /* YogmithraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769D9CF12C92B20000B3E7B6 /* Yogmithra */ = {
+			isa = PBXGroup;
+			children = (
+				769D9D4D2C92F45400B3E7B6 /* Info.plist */,
+				769D9D1C2C92B33300B3E7B6 /* GoogleService-Info.plist */,
+				769D9CF22C92B20000B3E7B6 /* YogmithraApp.swift */,
+				769D9CF42C92B20000B3E7B6 /* ContentView.swift */,
+				769D9CF62C92B20200B3E7B6 /* Assets.xcassets */,
+				769D9CF82C92B20200B3E7B6 /* Preview Content */,
+			);
+			path = Yogmithra;
+			sourceTree = "<group>";
+		};
+		769D9CF82C92B20200B3E7B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				769D9CF92C92B20200B3E7B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		769D9D022C92B20200B3E7B6 /* YogmithraTests */ = {
+			isa = PBXGroup;
+			children = (
+				769D9D032C92B20200B3E7B6 /* YogmithraTests.swift */,
+			);
+			path = YogmithraTests;
+			sourceTree = "<group>";
+		};
+		769D9D0C2C92B20200B3E7B6 /* YogmithraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				769D9D0D2C92B20200B3E7B6 /* YogmithraUITests.swift */,
+				769D9D0F2C92B20200B3E7B6 /* YogmithraUITestsLaunchTests.swift */,
+			);
+			path = YogmithraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		769D9CEE2C92B20000B3E7B6 /* Yogmithra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D9D132C92B20200B3E7B6 /* Build configuration list for PBXNativeTarget "Yogmithra" */;
+			buildPhases = (
+				3078B211A1ED3EA3664C1F75 /* [CP] Check Pods Manifest.lock */,
+				769D9CEB2C92B20000B3E7B6 /* Sources */,
+				769D9CEC2C92B20000B3E7B6 /* Frameworks */,
+				769D9CED2C92B20000B3E7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yogmithra;
+			packageProductDependencies = (
+				769D9D1F2C92BC9300B3E7B6 /* FirebaseAnalytics */,
+				769D9D212C92BC9300B3E7B6 /* FirebaseAnalyticsOnDeviceConversion */,
+				769D9D232C92BC9300B3E7B6 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				769D9D252C92BC9300B3E7B6 /* FirebaseAppCheck */,
+				769D9D272C92BC9300B3E7B6 /* FirebaseAppDistribution-Beta */,
+				769D9D292C92BF3600B3E7B6 /* FirebaseAuth */,
+				769D9D2B2C92BF3600B3E7B6 /* FirebaseAuthCombine-Community */,
+				769D9D2D2C92BF3600B3E7B6 /* FirebaseCrashlytics */,
+				769D9D2F2C92BF3600B3E7B6 /* FirebaseDatabase */,
+				769D9D312C92BF3600B3E7B6 /* FirebaseDynamicLinks */,
+				769D9D332C92BF3600B3E7B6 /* FirebaseFirestore */,
+				769D9D352C92BF3600B3E7B6 /* FirebaseFirestoreCombine-Community */,
+				769D9D372C92BF3600B3E7B6 /* FirebaseFunctions */,
+				769D9D392C92BF3600B3E7B6 /* FirebaseFunctionsCombine-Community */,
+				769D9D3B2C92BF3600B3E7B6 /* FirebaseInAppMessaging-Beta */,
+				769D9D3D2C92BF3600B3E7B6 /* FirebaseInstallations */,
+				769D9D3F2C92BF3600B3E7B6 /* FirebaseMLModelDownloader */,
+				769D9D412C92BF3600B3E7B6 /* FirebaseMessaging */,
+				769D9D432C92BF3600B3E7B6 /* FirebasePerformance */,
+				769D9D452C92BF3600B3E7B6 /* FirebaseRemoteConfig */,
+				769D9D472C92BF3600B3E7B6 /* FirebaseStorage */,
+				769D9D492C92BF3600B3E7B6 /* FirebaseStorageCombine-Community */,
+				769D9D4B2C92BF3600B3E7B6 /* FirebaseVertexAI-Preview */,
+			);
+			productName = Yogmithra;
+			productReference = 769D9CEF2C92B20000B3E7B6 /* Yogmithra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		769D9CFE2C92B20200B3E7B6 /* YogmithraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D9D162C92B20200B3E7B6 /* Build configuration list for PBXNativeTarget "YogmithraTests" */;
+			buildPhases = (
+				D27CBC28D1FC19CDFD7802D1 /* [CP] Check Pods Manifest.lock */,
+				769D9CFB2C92B20200B3E7B6 /* Sources */,
+				769D9CFC2C92B20200B3E7B6 /* Frameworks */,
+				769D9CFD2C92B20200B3E7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769D9D012C92B20200B3E7B6 /* PBXTargetDependency */,
+			);
+			name = YogmithraTests;
+			productName = YogmithraTests;
+			productReference = 769D9CFF2C92B20200B3E7B6 /* YogmithraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		769D9D082C92B20200B3E7B6 /* YogmithraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769D9D192C92B20200B3E7B6 /* Build configuration list for PBXNativeTarget "YogmithraUITests" */;
+			buildPhases = (
+				BB3AE7B81395477A830C247A /* [CP] Check Pods Manifest.lock */,
+				769D9D052C92B20200B3E7B6 /* Sources */,
+				769D9D062C92B20200B3E7B6 /* Frameworks */,
+				769D9D072C92B20200B3E7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				769D9D0B2C92B20200B3E7B6 /* PBXTargetDependency */,
+			);
+			name = YogmithraUITests;
+			productName = YogmithraUITests;
+			productReference = 769D9D092C92B20200B3E7B6 /* YogmithraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		769D9CE72C92B20000B3E7B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					769D9CEE2C92B20000B3E7B6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					769D9CFE2C92B20200B3E7B6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 769D9CEE2C92B20000B3E7B6;
+					};
+					769D9D082C92B20200B3E7B6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 769D9CEE2C92B20000B3E7B6;
+					};
+				};
+			};
+			buildConfigurationList = 769D9CEA2C92B20000B3E7B6 /* Build configuration list for PBXProject "Yogmithra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 769D9CE62C92B20000B3E7B6;
+			packageReferences = (
+				769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 769D9CF02C92B20000B3E7B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				769D9CEE2C92B20000B3E7B6 /* Yogmithra */,
+				769D9CFE2C92B20200B3E7B6 /* YogmithraTests */,
+				769D9D082C92B20200B3E7B6 /* YogmithraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		769D9CED2C92B20000B3E7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D9CFA2C92B20200B3E7B6 /* Preview Assets.xcassets in Resources */,
+				769D9CF72C92B20200B3E7B6 /* Assets.xcassets in Resources */,
+				769D9D1D2C92B33300B3E7B6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D9CFD2C92B20200B3E7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D9D072C92B20200B3E7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3078B211A1ED3EA3664C1F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yogmithra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3AE7B81395477A830C247A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yogmithra-YogmithraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27CBC28D1FC19CDFD7802D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YogmithraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		769D9CEB2C92B20000B3E7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D9CF52C92B20000B3E7B6 /* ContentView.swift in Sources */,
+				769D9CF32C92B20000B3E7B6 /* YogmithraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D9CFB2C92B20200B3E7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D9D042C92B20200B3E7B6 /* YogmithraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		769D9D052C92B20200B3E7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769D9D0E2C92B20200B3E7B6 /* YogmithraUITests.swift in Sources */,
+				769D9D102C92B20200B3E7B6 /* YogmithraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		769D9D012C92B20200B3E7B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769D9CEE2C92B20000B3E7B6 /* Yogmithra */;
+			targetProxy = 769D9D002C92B20200B3E7B6 /* PBXContainerItemProxy */;
+		};
+		769D9D0B2C92B20200B3E7B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 769D9CEE2C92B20000B3E7B6 /* Yogmithra */;
+			targetProxy = 769D9D0A2C92B20200B3E7B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		769D9D112C92B20200B3E7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		769D9D122C92B20200B3E7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		769D9D142C92B20200B3E7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26AE0A9F46A4D979BE3D4761 /* Pods-Yogmithra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yogmithra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yogmithra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mohamed.Yogmithra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		769D9D152C92B20200B3E7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34891D1C0B33EDD3470A8850 /* Pods-Yogmithra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yogmithra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yogmithra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mohamed.Yogmithra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		769D9D172C92B20200B3E7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3F9F6949AB21F26FA4505F /* Pods-YogmithraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mohamed.YogmithraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yogmithra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yogmithra";
+			};
+			name = Debug;
+		};
+		769D9D182C92B20200B3E7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888BB52DE5DD94C6BBB5DE5F /* Pods-YogmithraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mohamed.YogmithraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yogmithra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yogmithra";
+			};
+			name = Release;
+		};
+		769D9D1A2C92B20200B3E7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E16F49515EE98FC5A365B1F /* Pods-Yogmithra-YogmithraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mohamed.YogmithraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yogmithra;
+			};
+			name = Debug;
+		};
+		769D9D1B2C92B20200B3E7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE20E960BBEF8DFB2D8EF99 /* Pods-Yogmithra-YogmithraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mohamed.YogmithraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Yogmithra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		769D9CEA2C92B20000B3E7B6 /* Build configuration list for PBXProject "Yogmithra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D9D112C92B20200B3E7B6 /* Debug */,
+				769D9D122C92B20200B3E7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769D9D132C92B20200B3E7B6 /* Build configuration list for PBXNativeTarget "Yogmithra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D9D142C92B20200B3E7B6 /* Debug */,
+				769D9D152C92B20200B3E7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769D9D162C92B20200B3E7B6 /* Build configuration list for PBXNativeTarget "YogmithraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D9D172C92B20200B3E7B6 /* Debug */,
+				769D9D182C92B20200B3E7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769D9D192C92B20200B3E7B6 /* Build configuration list for PBXNativeTarget "YogmithraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769D9D1A2C92B20200B3E7B6 /* Debug */,
+				769D9D1B2C92B20200B3E7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		769D9D1F2C92BC9300B3E7B6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		769D9D212C92BC9300B3E7B6 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		769D9D232C92BC9300B3E7B6 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		769D9D252C92BC9300B3E7B6 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		769D9D272C92BC9300B3E7B6 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 769D9D1E2C92BC9300B3E7B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		769D9D292C92BF3600B3E7B6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		769D9D2B2C92BF3600B3E7B6 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		769D9D2D2C92BF3600B3E7B6 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCrashlytics;
+		};
+		769D9D2F2C92BF3600B3E7B6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDatabase;
+		};
+		769D9D312C92BF3600B3E7B6 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDynamicLinks;
+		};
+		769D9D332C92BF3600B3E7B6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		769D9D352C92BF3600B3E7B6 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		769D9D372C92BF3600B3E7B6 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFunctions;
+		};
+		769D9D392C92BF3600B3E7B6 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		769D9D3B2C92BF3600B3E7B6 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		769D9D3D2C92BF3600B3E7B6 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseInstallations;
+		};
+		769D9D3F2C92BF3600B3E7B6 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMLModelDownloader;
+		};
+		769D9D412C92BF3600B3E7B6 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseMessaging;
+		};
+		769D9D432C92BF3600B3E7B6 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebasePerformance;
+		};
+		769D9D452C92BF3600B3E7B6 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseRemoteConfig;
+		};
+		769D9D472C92BF3600B3E7B6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseStorage;
+		};
+		769D9D492C92BF3600B3E7B6 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		769D9D4B2C92BF3600B3E7B6 /* FirebaseVertexAI-Preview */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "FirebaseVertexAI-Preview";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 769D9CE72C92B20000B3E7B6 /* Project object */;
+}

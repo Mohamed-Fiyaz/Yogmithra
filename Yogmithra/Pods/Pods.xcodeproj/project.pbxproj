@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A36BD65499AE55A456EFB7A52D09731 /* Pods-Yogmithra-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60668F5526ECE76F877C36D209E4392F /* Pods-Yogmithra-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284423DFD8E6B3AC82253491A3652CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C74BF3BF784837FF3AD4E673A1B6AA4 /* Pods-YogmithraTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5784F9E7F43AFED24569AC4DFB8D4FD2 /* Pods-YogmithraTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442645365EC1F86EEBCB3277A157077F /* Pods-Yogmithra-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F13825EEAD898DAE6B72F531F690B65 /* Pods-Yogmithra-dummy.m */; };
+		CEA7994A15B0FE8AE5096C9B72753784 /* Pods-YogmithraTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C0E6EEA86A8282DC3DD7DED769644 /* Pods-YogmithraTests-dummy.m */; };
+		D1D45F20D06235166F896717F44CAF2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DD9E74B084C9259DDA9CF78EC68A00F5 /* Pods-Yogmithra-YogmithraUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE549531FA6300EDB483DA449B674D2 /* Pods-Yogmithra-YogmithraUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E728E7017B747CEC3235F11725A5E76A /* Pods-Yogmithra-YogmithraUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B941D9011A16973BA41DF15F035EBD94 /* Pods-Yogmithra-YogmithraUITests-dummy.m */; };
+		EE9B69D8009C96D2004A9688BF793C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226C5EA3A5DF5916EFCD3AF5A33FB391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12CF3B789CA58A4304E25E34E936A27C;
+			remoteInfo = "Pods-Yogmithra";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093FBA4A61D41E6CD219D4C3FA10C96A /* Pods-YogmithraTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YogmithraTests-Info.plist"; sourceTree = "<group>"; };
+		0F41DBBE6D72AB812D4A0C4E03D8CC8D /* Pods-YogmithraTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YogmithraTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A35E48E76569E8277037F49A2632D91 /* Pods-Yogmithra-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Yogmithra-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20572CCB0731691CB23610BF8ED1FCCD /* Pods-Yogmithra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yogmithra.release.xcconfig"; sourceTree = "<group>"; };
+		22E7399AF346FC882E748B11A660B1B2 /* Pods-YogmithraTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YogmithraTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E20B7778D8C53322C45F1BD8514D8CC /* Pods-YogmithraTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YogmithraTests.modulemap"; sourceTree = "<group>"; };
+		2E80B731DB074B3360CEEA31949DD564 /* Pods-Yogmithra-YogmithraUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Yogmithra-YogmithraUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		37F000D91FBD75982BDECFE4FD9AF847 /* Pods-Yogmithra-YogmithraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yogmithra-YogmithraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AE549531FA6300EDB483DA449B674D2 /* Pods-Yogmithra-YogmithraUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Yogmithra-YogmithraUITests-umbrella.h"; sourceTree = "<group>"; };
+		4D7EDC73FF125E1884236381871B22AD /* Pods-Yogmithra */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Yogmithra"; path = Pods_Yogmithra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F13825EEAD898DAE6B72F531F690B65 /* Pods-Yogmithra-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Yogmithra-dummy.m"; sourceTree = "<group>"; };
+		5711BB0B67FA42B70544B6B6DF678D80 /* Pods-YogmithraTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YogmithraTests"; path = Pods_YogmithraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5784F9E7F43AFED24569AC4DFB8D4FD2 /* Pods-YogmithraTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YogmithraTests-umbrella.h"; sourceTree = "<group>"; };
+		60668F5526ECE76F877C36D209E4392F /* Pods-Yogmithra-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Yogmithra-umbrella.h"; sourceTree = "<group>"; };
+		641E3702B3A5853239F1C5C496B2F962 /* Pods-Yogmithra-YogmithraUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Yogmithra-YogmithraUITests"; path = Pods_Yogmithra_YogmithraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEB3C24FC27F5FCCE829309C9C9DDDD /* Pods-YogmithraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YogmithraTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7486A5F3898A562E12C4FC3F22A7C4F1 /* Pods-YogmithraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YogmithraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		876FB1C3B140EC55DA3A8876D2CA242A /* Pods-Yogmithra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yogmithra.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0E82B9F789A651A1EFE8F415F72E4B /* Pods-Yogmithra-YogmithraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yogmithra-YogmithraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D947B5800E6674DA9239D89F7B72EC0 /* Pods-Yogmithra-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Yogmithra-Info.plist"; sourceTree = "<group>"; };
+		AB8C0E6EEA86A8282DC3DD7DED769644 /* Pods-YogmithraTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YogmithraTests-dummy.m"; sourceTree = "<group>"; };
+		B45A2616DE8085693584968B6E9E6109 /* Pods-Yogmithra-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Yogmithra-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6CC34D9BA6D9024E5F4156F91B1AD0D /* Pods-Yogmithra-YogmithraUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Yogmithra-YogmithraUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8C7AABB02C6CFFE597F905BD489C79A /* Pods-Yogmithra.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Yogmithra.modulemap"; sourceTree = "<group>"; };
+		B941D9011A16973BA41DF15F035EBD94 /* Pods-Yogmithra-YogmithraUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Yogmithra-YogmithraUITests-dummy.m"; sourceTree = "<group>"; };
+		BADC8C9785D6A9759C781C665E3F94C3 /* Pods-Yogmithra-YogmithraUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Yogmithra-YogmithraUITests-Info.plist"; sourceTree = "<group>"; };
+		F07F6301C8C11E5945C2CD7880B6C24A /* Pods-Yogmithra-YogmithraUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Yogmithra-YogmithraUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1473640353F7FEC1307DF0335C86C081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9B69D8009C96D2004A9688BF793C41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C89FF0B6F2AA02BE289CD2E3C7C3711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D45F20D06235166F896717F44CAF2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC25E8C8AC9298DF86FCBA2FFB070DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284423DFD8E6B3AC82253491A3652CE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E8D91D67CEA053320943E83F4383C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7EDC73FF125E1884236381871B22AD /* Pods-Yogmithra */,
+				641E3702B3A5853239F1C5C496B2F962 /* Pods-Yogmithra-YogmithraUITests */,
+				5711BB0B67FA42B70544B6B6DF678D80 /* Pods-YogmithraTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				29E8D91D67CEA053320943E83F4383C2 /* Products */,
+				F52AE5E7D30A9B4B1F4F9BF5200F74EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F15BD18D55D684879028524D2E4A63 /* Pods-Yogmithra-YogmithraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F07F6301C8C11E5945C2CD7880B6C24A /* Pods-Yogmithra-YogmithraUITests.modulemap */,
+				B6CC34D9BA6D9024E5F4156F91B1AD0D /* Pods-Yogmithra-YogmithraUITests-acknowledgements.markdown */,
+				2E80B731DB074B3360CEEA31949DD564 /* Pods-Yogmithra-YogmithraUITests-acknowledgements.plist */,
+				B941D9011A16973BA41DF15F035EBD94 /* Pods-Yogmithra-YogmithraUITests-dummy.m */,
+				BADC8C9785D6A9759C781C665E3F94C3 /* Pods-Yogmithra-YogmithraUITests-Info.plist */,
+				3AE549531FA6300EDB483DA449B674D2 /* Pods-Yogmithra-YogmithraUITests-umbrella.h */,
+				9D0E82B9F789A651A1EFE8F415F72E4B /* Pods-Yogmithra-YogmithraUITests.debug.xcconfig */,
+				37F000D91FBD75982BDECFE4FD9AF847 /* Pods-Yogmithra-YogmithraUITests.release.xcconfig */,
+			);
+			name = "Pods-Yogmithra-YogmithraUITests";
+			path = "Target Support Files/Pods-Yogmithra-YogmithraUITests";
+			sourceTree = "<group>";
+		};
+		E5AA75CDD182483E13CB0CCC28542ED0 /* Pods-YogmithraTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E20B7778D8C53322C45F1BD8514D8CC /* Pods-YogmithraTests.modulemap */,
+				0F41DBBE6D72AB812D4A0C4E03D8CC8D /* Pods-YogmithraTests-acknowledgements.markdown */,
+				22E7399AF346FC882E748B11A660B1B2 /* Pods-YogmithraTests-acknowledgements.plist */,
+				AB8C0E6EEA86A8282DC3DD7DED769644 /* Pods-YogmithraTests-dummy.m */,
+				093FBA4A61D41E6CD219D4C3FA10C96A /* Pods-YogmithraTests-Info.plist */,
+				5784F9E7F43AFED24569AC4DFB8D4FD2 /* Pods-YogmithraTests-umbrella.h */,
+				7486A5F3898A562E12C4FC3F22A7C4F1 /* Pods-YogmithraTests.debug.xcconfig */,
+				6EEB3C24FC27F5FCCE829309C9C9DDDD /* Pods-YogmithraTests.release.xcconfig */,
+			);
+			name = "Pods-YogmithraTests";
+			path = "Target Support Files/Pods-YogmithraTests";
+			sourceTree = "<group>";
+		};
+		E91B7B8356C7BCAFBDFC8E6E0C87731A /* Pods-Yogmithra */ = {
+			isa = PBXGroup;
+			children = (
+				B8C7AABB02C6CFFE597F905BD489C79A /* Pods-Yogmithra.modulemap */,
+				1A35E48E76569E8277037F49A2632D91 /* Pods-Yogmithra-acknowledgements.markdown */,
+				B45A2616DE8085693584968B6E9E6109 /* Pods-Yogmithra-acknowledgements.plist */,
+				4F13825EEAD898DAE6B72F531F690B65 /* Pods-Yogmithra-dummy.m */,
+				9D947B5800E6674DA9239D89F7B72EC0 /* Pods-Yogmithra-Info.plist */,
+				60668F5526ECE76F877C36D209E4392F /* Pods-Yogmithra-umbrella.h */,
+				876FB1C3B140EC55DA3A8876D2CA242A /* Pods-Yogmithra.debug.xcconfig */,
+				20572CCB0731691CB23610BF8ED1FCCD /* Pods-Yogmithra.release.xcconfig */,
+			);
+			name = "Pods-Yogmithra";
+			path = "Target Support Files/Pods-Yogmithra";
+			sourceTree = "<group>";
+		};
+		F52AE5E7D30A9B4B1F4F9BF5200F74EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E91B7B8356C7BCAFBDFC8E6E0C87731A /* Pods-Yogmithra */,
+				E1F15BD18D55D684879028524D2E4A63 /* Pods-Yogmithra-YogmithraUITests */,
+				E5AA75CDD182483E13CB0CCC28542ED0 /* Pods-YogmithraTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CAE3270252834D5F08F0C4BA2116A6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C74BF3BF784837FF3AD4E673A1B6AA4 /* Pods-YogmithraTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362B7F4EA3D53A1FF848F1F96E39BDF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A36BD65499AE55A456EFB7A52D09731 /* Pods-Yogmithra-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF4D81D5075FAABFBBBFB7DB68A244D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9E74B084C9259DDA9CF78EC68A00F5 /* Pods-Yogmithra-YogmithraUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12CF3B789CA58A4304E25E34E936A27C /* Pods-Yogmithra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030461BC0CA397B814C7CF02C27A85BF /* Build configuration list for PBXNativeTarget "Pods-Yogmithra" */;
+			buildPhases = (
+				362B7F4EA3D53A1FF848F1F96E39BDF5 /* Headers */,
+				81C4B47160B684E94AEDF7F2D45821F6 /* Sources */,
+				CDC25E8C8AC9298DF86FCBA2FFB070DB /* Frameworks */,
+				8D6BED60EA5B494C6AE28EC883F0139C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Yogmithra";
+			productName = Pods_Yogmithra;
+			productReference = 4D7EDC73FF125E1884236381871B22AD /* Pods-Yogmithra */;
+			productType = "com.apple.product-type.framework";
+		};
+		C24E7101EBCC5981AC7E5BE88705DB9C /* Pods-YogmithraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A308CA71D22E50B3403376847112CA /* Build configuration list for PBXNativeTarget "Pods-YogmithraTests" */;
+			buildPhases = (
+				0CAE3270252834D5F08F0C4BA2116A6E /* Headers */,
+				D5E93EDCFC97D88A8035D1CACD8C4AB6 /* Sources */,
+				9C89FF0B6F2AA02BE289CD2E3C7C3711 /* Frameworks */,
+				06D24BF1EBC82298E9A7E62525F68620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44907A16DE60E9D625E01968ABDD9191 /* PBXTargetDependency */,
+			);
+			name = "Pods-YogmithraTests";
+			productName = Pods_YogmithraTests;
+			productReference = 5711BB0B67FA42B70544B6B6DF678D80 /* Pods-YogmithraTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C32264F0C999033AFC874799B8E6DCF6 /* Pods-Yogmithra-YogmithraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BD0BC91EDB02AE18E45126155360A /* Build configuration list for PBXNativeTarget "Pods-Yogmithra-YogmithraUITests" */;
+			buildPhases = (
+				CCF4D81D5075FAABFBBBFB7DB68A244D /* Headers */,
+				A98C65DDF0B68B9A0F3F8F5B1E239E76 /* Sources */,
+				1473640353F7FEC1307DF0335C86C081 /* Frameworks */,
+				B4A6B69D62CB26D630653D7CF2D5367E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Yogmithra-YogmithraUITests";
+			productName = Pods_Yogmithra_YogmithraUITests;
+			productReference = 641E3702B3A5853239F1C5C496B2F962 /* Pods-Yogmithra-YogmithraUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = 29E8D91D67CEA053320943E83F4383C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CF3B789CA58A4304E25E34E936A27C /* Pods-Yogmithra */,
+				C32264F0C999033AFC874799B8E6DCF6 /* Pods-Yogmithra-YogmithraUITests */,
+				C24E7101EBCC5981AC7E5BE88705DB9C /* Pods-YogmithraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D24BF1EBC82298E9A7E62525F68620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6BED60EA5B494C6AE28EC883F0139C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A6B69D62CB26D630653D7CF2D5367E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C4B47160B684E94AEDF7F2D45821F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442645365EC1F86EEBCB3277A157077F /* Pods-Yogmithra-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98C65DDF0B68B9A0F3F8F5B1E239E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E728E7017B747CEC3235F11725A5E76A /* Pods-Yogmithra-YogmithraUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E93EDCFC97D88A8035D1CACD8C4AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA7994A15B0FE8AE5096C9B72753784 /* Pods-YogmithraTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44907A16DE60E9D625E01968ABDD9191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Yogmithra";
+			target = 12CF3B789CA58A4304E25E34E936A27C /* Pods-Yogmithra */;
+			targetProxy = 226C5EA3A5DF5916EFCD3AF5A33FB391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EF193E2D772F216AAA71FDB5F7922DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20572CCB0731691CB23610BF8ED1FCCD /* Pods-Yogmithra.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Yogmithra/Pods-Yogmithra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yogmithra/Pods-Yogmithra.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		417F635DA8BCA2B45B42C1D8F553A928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876FB1C3B140EC55DA3A8876D2CA242A /* Pods-Yogmithra.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Yogmithra/Pods-Yogmithra-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yogmithra/Pods-Yogmithra.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E0F73FBD4A2D1163AABB328C8C1F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F000D91FBD75982BDECFE4FD9AF847 /* Pods-Yogmithra-YogmithraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Yogmithra-YogmithraUITests/Pods-Yogmithra-YogmithraUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yogmithra-YogmithraUITests/Pods-Yogmithra-YogmithraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65F5F554C15ABB3279A953A2A914DFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7486A5F3898A562E12C4FC3F22A7C4F1 /* Pods-YogmithraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YogmithraTests/Pods-YogmithraTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YogmithraTests/Pods-YogmithraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		699C8BD890489228C275C95912DAEE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEB3C24FC27F5FCCE829309C9C9DDDD /* Pods-YogmithraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YogmithraTests/Pods-YogmithraTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YogmithraTests/Pods-YogmithraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E804EC217FB632770D905F477628FDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0E82B9F789A651A1EFE8F415F72E4B /* Pods-Yogmithra-YogmithraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Yogmithra-YogmithraUITests/Pods-Yogmithra-YogmithraUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yogmithra-YogmithraUITests/Pods-Yogmithra-YogmithraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030461BC0CA397B814C7CF02C27A85BF /* Build configuration list for PBXNativeTarget "Pods-Yogmithra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F635DA8BCA2B45B42C1D8F553A928 /* Debug */,
+				0EF193E2D772F216AAA71FDB5F7922DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BD0BC91EDB02AE18E45126155360A /* Build configuration list for PBXNativeTarget "Pods-Yogmithra-YogmithraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E804EC217FB632770D905F477628FDE4 /* Debug */,
+				65E0F73FBD4A2D1163AABB328C8C1F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A308CA71D22E50B3403376847112CA /* Build configuration list for PBXNativeTarget "Pods-YogmithraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5F554C15ABB3279A953A2A914DFBE /* Debug */,
+				699C8BD890489228C275C95912DAEE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
